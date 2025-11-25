@@ -22,3 +22,13 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment files with secrets
+.env
+.env.local
+.env.*.local
+
+# MCP credentials (stored globally in ~/.claude/config.json)
+# Never commit these files if created locally
+config.json
+mcp-config.json
