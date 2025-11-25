@@ -1,0 +1,7 @@
+{
+  "name": "RentSwipe",
+  "description": "A mobile-first, Tinder-style rental discovery application featuring swipe navigation, modern overlays, and robust filtering.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
